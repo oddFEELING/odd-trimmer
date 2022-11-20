@@ -1,0 +1,26 @@
+{
+  "name": "odd-trimer",
+  "version": "1.0.0",
+  "description": "A light-weight package to trim and summerize strings",
+  "main": "src/trimmer.js",
+  "scripts": {
+    "start": "node src/trimmer.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oddFEELING/odd-trimmer.git"
+  },
+  "keywords": [
+    "trim"
+  ],
+  "author": "oddFEELING",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oddFEELING/odd-trimmer/issues"
+  },
+  "homepage": "https://github.com/oddFEELING/odd-trimmer#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
