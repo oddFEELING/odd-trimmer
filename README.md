@@ -13,14 +13,25 @@ Creates summeries from long sentences
 
 ## Getting Started <a name = "getting_started"></a>
 
-Install the npm Package
+import the package and simply use
+
+```javascript
+import oddTrimmer from 'odd-trimmer';
+
+const newSentence =
+  'This is an example string to be summerized and cut into ten pieces by the trimmer';
+const summerizedSentence = oddTrimmer(newSentence, 'short');
+consoloe.log(summerizedSentence); // This is an example string to be summerized and cut...
+```
 
 ### Prerequisites
 
 What things you need to install the software and how to install them.
 
 ```
-npm install odd-trimmer
+npm  or yarn
+
+node
 ```
 
 ### Installing
@@ -43,4 +54,13 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Usage <a name = "usage"></a>
 
-Add notes about how to use the system.
+import the package and simply use
+
+```javascript
+import oddTrimmer from 'odd-trimmer';
+
+const newSentence =
+  'This is an example string to be summerized and cut into ten pieces by the trimmer';
+const summerizedSentence = oddTrimmer(newSentence, 'short');
+consoloe.log(summerizedSentence); // This is an example string to be summerized and cut...
+```
